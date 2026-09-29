@@ -1,0 +1,1251 @@
+UniObserver: changes log
+
+Version 1.0:
+• Project name changed to UniObserver;
+
+
+
+
+
+UniNotifier: changes log
+
+Version 9.1:
+• The app now stores its settings in the notifications exchange file instead
+  of the registry;
+• The length of the notifications list is now unlimited;
+• The exchange file format is now properly versioned and got UTF8 encoding
+  instead of UTF16
+
+Version 9.0:
+• Applied the updated GitHub markup for version numbers
+
+Version 8.9.7:
+• Internal assemblies have been updated;
+• Wizard window can now remember its position
+
+Version 8.9.5:
+• Removed the ability to open the notification source by clicking on the balloon
+  due to its instability
+
+Version 8.9.4:
+• Upgraded the update checking method;
+• Package format has been updated
+
+Version 8.9.3:
+• Support of offline help has been discontinued for this app
+
+Version 8.9.2:
+• Tray popup notifications are now clickable;
+• Some code refactoring has been applied
+
+Version 8.9:
+• App has been migrated to .NET 10;
+• Internal assemblies have been updated
+
+Version 8.8.6:
+• Settings interface has been updated;
+• Internal assemblies have been updated
+
+Version 8.8.3:
+• Internal assemblies have been updated;
+• XPUN / IOP update has been applied
+
+Version 8.8.1:
+• Adjusted the behavior of the autoscroll flag
+
+Version 8.8:
+• The autoscroll for the main log now can be disabled by the corresponding
+  flag or by scrolling it from bottom to top. Reversed scroll will
+  re-enable it;
+• User messages subsystem has been updated
+
+Version 8.7.2:
+• Internal assemblies have been updated
+
+Version 8.7.1:
+• Added support for new offline help provider
+
+Version 8.7:
+• The application has been migrated to .NET 9.0 from .NET Framework 4.8.1
+
+Version 8.6.3:
+• Current updates have been applied
+
+Version 8.6.2:
+• Removed the unused code and data files;
+• Disabled the escaping of ampersands in log items
+
+Version 8.6.1:
+• Access and appearance of the Lab Policy have been updated
+
+Version 8.6:
+• Implemented the stand-alone interface that allows you to manually find and specify the identifiers
+  (parts of markup) for the target area of the webpage to create a new notification;
+• The number of attempts by the notification wizard to receive notification text at the setup stage
+  has been increased to 5;
+• The notification wizard has been moved back from context menu to the settings window as a separate
+  button;
+• Restored the sort order for notifications: disabled items are now in the end of list;
+• Added the “Doesn’t contain” comparator type for string values;
+• Fixed a bug where the “Don’t show non-urgent” flag could remain active even after disabling
+  the comparator and lead to missing necessary notifications;
+• Fixed a bug where the numeric value comparator could return a false urgency trigger
+
+Version 8.5.1:
+• The context menu for the main log now appears at the mouse position when you click an item;
+• The video guides have been updated
+
+Version 8.5:
+• The app settings interface has been completely rewritten;
+• Added new colors for text in the main log
+
+Version 8.0.5:
+• Added new context menu from the deprecated Android version: “setup notification”,
+  “disable notification”, “delete text” and “copy text”;
+• Added the ability to switch the transculency for log items;
+• The appearance of log items now depend on the window size and transculency flag
+
+Version 8.0:
+• The log field is now correctly divided into separate entries. Each entry has its
+  own program field. When clicked, the source page of corresponding notification is opened;
+• The app can now indicate urgent notifications with color highlighting in the main log and
+  with the special tray icon;
+• Fixed the incorrect urgency state when the set of urgency signatures contains latin letters
+  or digits;
+• Other fixes and improvements have been applied
+
+Version 7.7:
+• Added the ability to change the background color of the main log;
+• The list of notification sources near from GoTo button has been
+  replaced with the context menu
+
+Version 7.6.3:
+• The new identity has been applied
+
+Version 7.6.2:
+• The “App about” interface has been updated
+
+Version 7.6.1:
+• Removed support for GMJ
+
+Version 7.5.50:
+• The “App about” interface has been updated
+
+Version 7.5.45:
+• Videoguides have been updated;
+• GMJ: skip list has been updated
+
+Version 7.5.40:
+• Adjusted the behavior of characters comparator for urgent signatures;
+• Android: end of life cycle - failed to stabilize the foreground service;
+• TPV: исправлена общая проблема с обращением к E-mail клиенту на Android 11 и новее;
+• TPV: обновлены пакеты поддержки MAUI;
+• TPV: исправлены некоторые проблемы с обращением к справке и поддержке
+
+Version 7.5:
+• Implemented the string of urgency signatures. Here you can specify a character
+  or emoji string. If any of them is detected in the text of notification,
+  the urgency flag will be set;
+• GMJ: the skip list has been updated;
+• Android: removed the trigger that allowed autorestarting after the device reboot
+  due to inability of actual MAUI platform to make it work properly;
+• Android: MAUI support packages have been updated
+
+Version 7.4.6:
+• Android: fixed some runtime memory leaks;
+• XPUN update has been applied
+
+Version 7.4.5:
+• Android: fixed the inability to start the app on device reboot event;
+• Android: fixed the app crash on Android 13 and newer;
+• Android: adjusted some text tips
+
+Version 7.4:
+• Android: fixed some minor interface bugs;
+• Windows: fixed some minor interface bugs;
+• GMJ: the skip list has been updated;
+• Android: app has been translated to NET80 / MAUI platform:
+  - App now has unified Android navigation shell;
+• Android: app has been adapted to Android 14 (API 34)
+
+Version 7.3.6:
+• Windows: implemented the new App about interface
+
+Version 7.3.5:
+• Settings storage has been updated (may require some adjustments);
+• Updated the help and support links;
+• Android: probably fixed the bug with freezing touchscreen;
+• Android: adjusted the appearance of the main log;
+• GMJ: the skip list has been updated
+
+Version 7.3.3:
+• GMJ: the skip list has been updated;
+• Android: added the extra tips for the first app start;
+• Android: added the reset button for the set of help tips
+
+Version 7.3.1:
+• Windows: application retargeted to .NET Framework 4.8.1;
+• Android: background service code has been reworked, a number of compatibility issues with Android 13 have been fixed;
+• Android: app permissions checker has been rewritten;
+• Android: tips storage has been rewritten (may cause their repeating once more)
+
+Version 7.2:
+• Current updates have been applied;
+• Windows: fixed a possible crash when simultaneously opening the settings window and closing the service from the tray;
+• GMJ: updated the skip list
+
+Version 7.1.5:
+• Windows: updated HypeHelp and Updates checker mechanics: this should fix apps freezing immediately
+  after launch (on some PCs)
+
+Version 7.1.3:
+• Android: updated the Xamarin support packages;
+• Windows: updated the HypeHelp links list;
+• GMJ: updated the skip list
+
+Version 7.1.2:
+• Android: fixed some interface bugs;
+• GMJ: updated the skip list
+
+Version 7.1.1:
+• Update for XPUN has been applied;
+• Windows: some minor interface bugs have been fixed
+
+Version 7.1:
+• Android: removed the misleading switch for urgent / mixed notifications. Now the urgent /
+  non-urgent separation is permanent;
+• Android: all tips (including the first start tips) have been updated;
+• Android: Xamarin support packages have been updated
+
+Version 7.0.2:
+• GMJ: skip list has been updated
+
+Version 7.0:
+• The app can now work with many more sites than before. We have rebuilt the web request
+  method to enable it to work with the newest HTTP and security requirements;
+• Fixed some minor bugs;
+• Windows: the main log interface has been rebuilt;
+• GMJ: updated the skip list
+
+Version 6.8.5:
+• App now can call localized guides and videomanuals;
+• App now has localized video guides
+
+Version 6.8.3:
+• Android: the font size and scale are now independent from the system settings (old interface bug);
+• Core updates have been applied;
+• Android: Xamarin support packages have been updated;
+• GMJ: skiplist has been updated
+
+Version 6.8.1:
+• Android: some recommendations have been applied for setting up the locked notifications
+  in Android S and newer;
+• Android: in OS versions starting from 12, minimizing an app when the service is disabled
+  (without closing it) and then returning focus to it results in an error. This user action
+  is treated by the app as a need to restart the background service. But in Android S and newer
+  such launch is prohibited. Now minimizing the app while the background service is unchecked
+  will disable it until the app is restarted (on the specified OS versions)
+
+Version 6.8:
+• New identity has been applied;
+• GMJ skip list has been updated
+
+Version 6.7.10:
+• GMJ skip list has been updated
+
+Version 6.7.9:
+• Added a new version of offline help;
+• Android: Xamarin support packages have been updated
+
+Version 6.7.7:
+• Completed the process of version control unification;
+• Android: Xamarin support packages have been updated;
+• GMJ: skip list has been updated
+
+Version 6.7.5:
+• Windows: adding (and deleting) to autorun has been moved to the app deployment / update procedure;
+• Windows: updates and fixes have been applied to the update polling mechanism, as well as to other auxiliary functions;
+• Windows: the main window will now automatically minimize to tray when calling an app from startup
+
+Version 6.7.2:
+• App now able to disable its autostart on OS boot;
+• App will now hide the main log when you run the URL;
+• GMJ: updated the skip list
+
+Version 6.7:
+• New identity has been applied
+
+Version 6.6.8:
+• Windows: for the user added short messages about the events of adding, updating
+  and deleting notifications;
+• GMJ: обновлён список пропускаемых записей;
+• Android: fixed incorrect E-mail in the “Ask the developer” function
+
+Version 6.6.6.6:
+• GMJ: скорректирован алгоритм заполнения списка доступных записей;
+• GMJ: скорректированы абзацные отступы в соглашении пользователя;
+• Android: fixed missing URL for initial Policy acception
+
+Version 6.6.5:
+• Added the obvious URLs for videoguide and for text guide;
+• Android: fixed some missing text tips
+
+Version 6.6.2:
+• Windows: fixed some issues with the Policy loader where it would sometimes ask for multiple confirmations;
+• Added new substitutions for some characters
+
+Version 6.6:
+• Android: Xamarin support libraries have been upgraded to AndroidX architecture;
+• Updated the settings file format: now it fully corresponds Unicode requirements;
+• Cumulative updates applied
+
+Version 6.5.5:
+• Windows: the placement of the settings window is now saveable;
+• Windows: the comparator value now can be changed using mouse wheel;
+• GMJ: the skip list has been updated; maintenance options have been removed
+
+Version 6.5:
+• Windows: implemented the access rights checker: it will test the availability of the Windows registry
+  and the application placement for writing and notify user about possible problems;
+• Updated the storage method of text tips;
+• Windows: GMJ снова доступна, начиная с этой версии программы;
+• GMJ: встроен полноценный файл-фильтр удалённых (отсутствующих) записей: теперь на их запросы
+  время тратиться не будет на протяжении всего цикла жизни приложения
+
+Version 6.4.5:
+• Windows: rewritten the settings operator: it should fix problems with requiring administrator rights
+
+Version 6.4.4:
+• Windows: updated the interface of message boxes
+
+Version 6.4.3:
+• Adjusted the templates of startup notifications;
+• GMJ: long texts are now partially available in the interface
+
+Version 6.4.2:
+• Added UTF32 encoding;
+• Windows: the interface was adapted to Windows 10, incorrect window borders were fixed;
+• Windows: the comparator value now can be changed with [Up] and [Down] keys
+
+Version 6.4:
+• Implemented the “contains” comparison mode for urgent notifications; the comparator value is text now;
+• Android: fixed reset of the scroll position in the main log on doing thing at settings pages;
+• Android: re-implemented manual scroll buttons for the main log;
+• Android: upgraded the “app about” interface
+
+Version 6.3:
+• XPUN control conditions have been updated;
+• Android: fixed a bug when app skips the log update if app is minimized but is not closed;
+• Android: updated the maintenance mode behavior
+
+Version 6.2:
+• Android: GMJ service now supports permanently skipping deleted records (it won’t call them after
+  it detects they are missing);
+• Android: app now able to generate an empty (silent) audio file that can be used to mute non-urgent
+  notifications;
+• Exchangeable settings file .uns (UTF8) has been replaced with new format .und (Unicode)
+
+Version 6.1.2:
+• Windows: “app about” window has been upgraded;
+• Windows: links list for HypeHelp has been updated;
+• Windows: fixed the updates downloader behavior in some rare conditions
+
+Version 6.1:
+• Android: the button under the main log now has a semaphore on it: its color will show the state
+  of the button and the state of background operations;
+• Some tips and captions have been replaced or updated;
+• Android: added the ability to change the font size for the entire interface (available on the last
+  app page);
+• The text tips processing code has been refactored, some methods have been unified
+  and simplified;
+• Removed some redundant code;
+• TPNot: исправлен дефект, вызывавший сбой приложения при попытке изменить размер шрифта
+  при пустом журнале
+
+TPNot todo:
+1. Добавить в настройки опцию выбора между "листанием по страницам" и "листанием по постам". 
+2. Добавить функцию поиска постов по номеру, дате или буквосочетанию. В результате, если пользователь ввёл в поиск
+   буквосочетание "0012", то на экране видит пост 0129, а их всего 10 штук. При листании вправо пользователь
+   долистывает до 0120, если в настройках "листание по постам". Если в настройках "листание по страницам",
+   то пользователь может просмотреть эти 10 постов при листании сверху вниз. 
+3. Добавить функцию сохранения поста в виде трёх элементов буфера обмена: 
+   - текст до "См. также"; 
+   - картинка; 
+   - ссылка после основного текста.
+
+Version 6.0.7:
+• Android: fixed missing splitter in the main log;
+• Android: removed some redundant code;
+• Android: upgraded the interface of single notification settings;
+• Fixed some other minor bugs
+
+Version 6.0:
+• Android: interface of the main log has been rebuilt: it now has only one static button;
+• Android: settings interface now able to set the function for this static button;
+• Android: notifications settings interface now has single button for specifying the URL and the
+  beginning / ending markup for the notification;
+• Some other adjustments applied to all interfaces;
+• Adjusted some internal methods of notifications polling;
+• Fixed some help tips
+
+Version 5.4.7:
+• Updated the HypeHelp mechanics
+
+Version 5.4.2:
+• Help tips have been updated
+
+Version 5.4.1:
+• User guide has been updated
+
+Version 5.4:
+• Android: user interface has been updated;
+• Android: added the ability to keep the screen on while app is opened;
+• Android: adjusted the presentation of the main log;
+• Android: added the scroll button for the main log (placed under the status bar)
+
+Version 5.3.2:
+• The app now uses a new, secure method for setting the size and position of windows;
+• Implemented support for HypeHelp mechanics;
+• Visual indicator has been disabled
+
+Version 5.3:
+• TPNot 4.7: реализована загрузка изображений, расположенных отдельно от текста (не связанных
+  со ссылками);
+• TPNot 4.7: исправлен дефект загрузки изображений, не позволявший корректно вернуть разрешение
+  на запись файлов в хранилище устройства;
+• TPNot 4.7: реализован переход на произвольную страницу раздела с помощью кнопки с её номером;
+• TPNot 4.7: значительно ускорена загрузка изображений;
+• TPNot 4.7: возможно, исправлено зависание основного интерфейса при загрузке изображений (требует
+  проверки);
+• TPNot 4.7: обновлены пакеты поддержки Xamarin;
+• Windows: added the visual indicator for numeric values. It can be enabled manually for one
+  of the created notifications. When it works, the corresponding notification will have
+  static update frequency (1 minute);
+• Android: adjusted the notifications icon
+
+Version 5.2:
+• XPR control has been implemented;
+• Windows: adjusted the control of single active copy;
+• Android: code refactoring has been applied;
+• Android: trying to fix the icon’s numeric badge
+
+Version 5.1.8:
+• Removed obsolete code
+
+Version 5.1:
+• Implemented the ability to open localized ADP, SCP and Welcome pages;
+• Windows: required framework version updated from 4.0 to 4.8;
+• Android: target version changed to T (API 33);
+• Android: fixed some headers and tips;
+• Android: updated Xamarin support packages;
+• Android: adjusted the behavior of locked pages (when the news retrieving is in progress);
+• Android: adjusted the autoscrolling behavior;
+• Android: implemented the ability to display the quantity of unread news as the badge for
+  the app icon
+
+Version 5.0.5:
+• Android: fixed notifications reload failure after the app restart;
+• Android: all news request now properly locks settings pages (to avoid unexpected effects);
+• Android: adjusted the notification icon;
+• TPNot 4.5: реализована автопрокрутка страниц при переходе между ними: к концу при переходе назад и к началу
+  при переходе вперёд;
+• TPNot 4.5: реализована индексация содержимого страниц: приложение теперь будет пытаться разделять страницы
+  таким образом, чтобы в верхней части каждой из них был подзаголовок следующей темы;
+• TPNot 4.5: исправлен дефект обработки ссылок, возникавший при перемещении между страницами и приводивший
+  к падению приложения;
+• TPNot 4.5: добавлен контроль разрешений при наличии на страницах загружаемых изображений;
+• TPNot 4.5: скорректировано отображение текста в простых полях;
+• TPNot 4.5.2: скорректирована механика кеширования страниц
+
+Version 5.0:
+• App now constantly has the short name – uNot;
+• New system registry call method has been implemented;
+• Cumulative updates and improvements have been applied
+
+Version 4.19.2:
+• Android: implemented the ability to add new news items to the end of the main log;
+• Android: implemented the ability to autoscroll to the newest item;
+• Android: fixed multiple log loading at the app start
+
+Version 4.18:
+• Android: upgraded the method of retrieving of the GMJ agreement;
+• Android: added the “Copy to clipboard” option for the main log;
+• Android: updated some tips
+
+Version 4.17:
+• Android: sizes of the news buttons and the font in the status bar and have been locked;
+• Android: maximum font size for the main log now depends on the screen size
+
+Version 4.16.1:
+• Fixed the bug that affected the file association method;
+• Android: upgraded the user interface: applied correct icon, fixed flickering splash screen,
+  fixed white navigation bar;
+• TPNotifier 4.4.1: обновлён интерфейс приложения: добавлена корректная иконка, исправлен
+  мерцающий стартовый экран, исправлена белая панель навигации;
+• TPNotifier 4.4.1: исправлен сбой приложения при загрузке изображений
+
+Version 4.15:
+• Android: urgent notifications now have single (not triple) sound effect;
+• Android: interface of the main log has been rebuilt;
+• Current improvements applied
+
+Version 4.14.2:
+• Windows: some mistakes in the wizard interface have been fixed;
+• Windows: parsing methods for ADP and projects descriptions have been upgraded;
+• TPN 4.3: реализована загрузка изображений в формате JPG для части страниц дайджестов;
+• TPN 4.3: дополнена и скорректирована функциональность интерфейса приложения;
+• TPN 4.3.1: уменьшено расстояние между элементами;
+• TPN 4.3.1: добавлены поля вокруг элементов интерфейса;
+• TPN 4.3.1: скорректировано расположение подписей изображений
+
+Version 4.14.1:
+• Windows: “app about” interface has been updated
+
+Version 4.14:
+• Android: GMJ functionality now can be targeted to other platforms (now it is FDL, in test mode);
+• Android: interface of the main log has been rebuilt;
+• Windows: font size of the main log now can be set
+
+Version 4.13.3:
+• User videoguide has been updated
+
+Version 4.13.2:
+• Android: the app is brought into line with the requirements of Android S+ (API 31);
+• Android: Xamarin support libraries have been updated
+• TPN 4.2: добавлены функции экспорта и импорта файла со стационарными ссылками;
+• TPN 4.2: реализована последовательная (неполная) загрузка вложенных страниц. Теперь при полном обновлении состояния будет
+  немедленно загружаться только текущая выбранная страница ссылок. Остальные будут дозагружаться при первом обращении. Это позволит
+  значительно ускорить работу приложения
+
+Version 4.13.1.5:
+• Android: app will now check the internet connection before requesting news in automated mode.
+  So, it will not anymore use CPU and create unavailability alert when no internet connection
+  is active
+
+Version 4.13:
+• Implemented the ability to load / save the complete notifications set from / into the file.
+  It allows you to preserve your settings in case of app reinstallation and / or migration from
+  Windows to Android or backward;
+• Windows: complete reset of texts of notifications when changing settings is now optional;
+• Notification of unavailability will not be repeated after the first occurrence
+
+Version 4.12:
+• Settings interface has been redesigned (settings grouped by type);
+• Implemented the ability to check the availability of the specified resource: when notification
+  will not be able to obtain its actual state it will throw the urgent notification about it.
+  This function is inactive by default; it must be enabled for every needed notification manually
+
+Version 4.11.3:
+• Some adjustments applied to the user interface
+
+Version 4.11.2:
+• Android: system back button now allows you to return to the main log;
+• Android: added some extra warnings about the app availability;
+• Android: updated lab links;
+• Windows: fixed critical bug in the main log
+
+Version 4.11.1:
+• TPNotifier (v 4.1): реализована настройка и работа 16-и стационарных ссылок;
+• Android: added the increment buttons for the value of threshold;
+• Android: context options in the main log for removed and special notifications are now different from 
+  options for generic items;
+• Android: context options in the main log now have recognizable icons
+
+Version 4.11:
+• Android: added “Go to notification settings” option to the context menu of the item’s list;
+• Android: creation of notifications by copying of existent item moved to the wizard section
+
+Version 4.10.40:
+• Android: font size in lists and tooltips now corresponds to the system one;
+• Android: some other UI fixes applied;
+• TPNotifier (v 4.0.6): реализована постраничная загрузка ссылок для ускорения обработки ресурсов;
+• TPNotifier (v 4.0.6): исправлен сбой при запуске приложения «с нуля»;
+• TPNotifier (v 4.0.6): добавлен функционал вызова предопределённых ссылок
+
+Version 4.10.37:
+• Visible name of the application changed back to “UniNotifier” due to invisibility through the search algorithms;
+• Windows: implemented the updates downloading directly from the “About the app” interface. This function
+  requires DPModule. It allows you to download DPModule if it was not previously installed;
+• Android: added color changing for notifications on urgent messages
+
+Version 4.9.2:
+• Android: improved the GMJ request method;
+• Android: app now properly operates with notification channels on Oreo and newer. There are two channels:
+  - for urgent and mixed notifications (which require sound or vibration indication);
+  - for non-urgent notifications (which can be left without indication).
+  The channeling is determined by the “Urgent notifications only” and “Threshold” settings;
+• Android: added the ability to “mute” non-urgent notifications. But it requires a file with some
+  quiet sound or without it at all;
+• Fixed bug in the method of numbers comparison
+
+Version 4.9.1:
+• Fixed processing of notifications names in the settings interface (all platforms).
+  In previous version they was able to be duplicated; on Android this duplication causes
+  incorrect behavior of the settings interface
+
+Version 4.9:
+• Android: restored the individual update rate settings for each notification;
+• Android: fixed incorrect templates applying;
+• Windows: current updates for “About” interface applied
+
+Version 4.8.3:
+• Current updates and improvements applied
+
+Version 4.8:
+• Changed app visual style;
+• Android: fixed bug with font size on large screens;
+• Android: other fixes and improvements applied
+
+Version 4.7.4:
+• Removed non-break space character from notification texts;
+• Android: changed alignment for notification headers;
+• TPNot: приложение пересобрано под новую разметку Tablepedia и под требования Android S (API 31)
+
+Version 4.7.3:
+• Windows: balloons now work more correctly: the will show warning sign when app has unread urgent messages;
+• Android: adjusted sound effect of urgent messages
+
+Version 4.7.2:
+• Android: general settings interface has been rebuilt
+
+Version 4.7.1:
+• Android: notifications settings interface has been rebuilt;
+• Android: minimum rate of automated requests is now 3 minutes;
+• Android: request rate now can be specified simpler
+
+Version 4.7:
+• Implemented function that allows you to set a numerical threshold for notifications. It will be compared
+  with the first number in every obtained text using the specified comparison method. If the new text matches
+  the condition, app will display a special warning. It is also possible to display a notification
+  only if this condition is met;
+• Windows: main log now will scroll its text down to the latest item every time it is displayed;
+• Added new tips for the implemented function
+
+Version 4.6.2:
+• Windows: app got the scalable icon and the digital signature (only self-signed for now);
+• Android: target API upgraded to 31 (S);
+• Android: updated Xamarin support packages
+
+Version 4.6.1:
+• Android: implemented new mechanism for evaluation of font sizes in the main interface;
+• Android: fixed some minor bugs
+
+Version 4.6:
+• Android: fixed interface blocking on manual notification request;
+• Android: added possible fix for unexpected application termination on Xiaomi devices;
+• Cumulative updates applied
+
+Version 4.5.18:
+• Improved processing of special characters in notification texts;
+• Android: updated links for FDL communities
+
+Version 4.5.17:
+• Windows: updated internal mechanism of checking for updates (applied compatibility with new GitHub theme);
+• Unified text splitters for notifications;
+• Android: fixed processing bug for main log: when user clicks on one of news with similar names of parent
+  notifications, app targets only one of them;
+• Added isolated release of Android application in APK format to temporarily replace Google play
+
+Version 4.5.16:
+• Fixed minor GMJ processing bugs
+
+Version 4.5.15:
+• Windows: added the registry access checker: it will show recommended actions for the executable file
+  when Windows doesn’t allow saving settings;
+• Windows: applied new elements in user interface
+
+Version 4.5.10:
+• Windows: AboutForm and HardWorkExecutor universal classes have been upgraded and improved;
+
+Version 4.5.4:
+• Fixed failure on GMJ first start
+
+Version 4.5.3:
+• Fixed text processing bug that could lead to infinite ininterruptible cycles
+
+Version 4.5.2:
+• Android: locked tap menu when control buttons are also locked due to updating operations;
+• Android: adjusted placement of splitters in the main log;
+• Android: fixed bug in the updater of GMJ records set;
+• Android: updated Xamarin support packages;
+• TPNot: обновлены пакеты поддержки Xamarin;
+• TPNot: видимое имя приложения изменено на “TPNot”;
+• TPNot: обновлена ссылка на ADP
+
+Version 4.5.1:
+• Fixed display of incorrect characters when the code page of the site doesn’t fit
+  the explicitly specified character codes
+
+Version 4.5:
+• Android: implemented ability to request the actual text of the single notification immediately
+  directly from the main log
+
+Version 4.4.1.1:
+• Windows: fixed some inconveniences in the user interface;
+• Windows: fixed “already exists” error on creating the notification from template;
+• Android: some interface adjustments applied
+
+Version 4.4:
+• Visible name of the application changed to “uNot”;
+• Updated ADP link;
+• Android: updated the mechanics of displaying and processing the main log (now headers are real);
+• Android: added advanced options for the main log: remove current text from it and disable the notification
+  from which it came;
+• Updated link for user guide
+
+Version 4.3.6:
+• Fixed “\/” character in redirected texts;
+• Android: upgraded the localization system: notifications language will now change without the application restart;
+• Android: notifications wizard button is now the first one on the screen
+
+Version 4.3.5:
+• Improved filtering for separator finder
+
+Version 4.3.4:
+• Получение записей из сообщества GMJ теперь работает с Telegram-каналом в качестве источника, поскольку
+  ВКонтакте лишил нас возможности делать это без труднопреодолимых ограничений. Таким образом, данная
+  функция успешно восстановлена и готова к использованию без ввода приватного токена, который требовался
+  в случае продолжения работы с ВК
+
+Version 4.3.3:
+• Updated known GMJ records;
+• Android: добавлен контроль на выходе с метода GetRandomGMJ: теперь все ошибки будут отображаться в toast
+
+Version 4.3.2:
+• Android: fixed non-immediate application of sound / vibro / light settings for notifications;
+• Android: removed redundant characters from texts sent for sharing
+
+Version 4.3.1:
+• Android: fixed app failure on Android restart;
+• Adjusted update rate for TG modification
+
+Version 4.3:
+• Android: added automated update for notification templates (at first try to use them in current
+  application start);
+• Android: re-added ability to select sound / light / vibro indication for notifications
+  (for Android Pie and older; on Android Q and newer these options are only configurable from
+  system parameters of application);
+• Android: some bugs in the wizard’s interface have been fixed;
+• Android: startup tips have been updated
+
+Version 4.2.2:
+• Notifications wizard now includes all non-manual methods of adding new notifications;
+• Manual delimiters search has been removed;
+• Android: some obsolete code elements have been removed;
+• Android: solved mismatch of real unread texts with their quantity in system tray;
+• Updated video guide for users
+
+Version 4.1:
+• Added notifications wizard. It allows to create notifications in five clear steps, without
+  manual markers specification (for beginners);
+• Android: internal threads management has been completely rebuilt. Now the app must work more stable;
+• Android: other interface fixes and improvements applied;
+• Updated known GMJ records
+
+Version 4.0g:
+• Removed GMJ functionality due to unexpected VK protocol change;
+• Android: adjusted notifications about unread news items
+
+Version 4.0:
+• Android: removed the log separator object used to indicate the current date. Now the date is
+  in every notification;
+• Android: we are reintroducing the functionality of automated polling notifications in standby
+  mode. The total pause between polls is now specified in the service settings. Zero value disables
+  the function (disabled by default). It may still not work when the device is not in battery
+  charging mode and the display is off. As it was before, there is no solution to this problem.
+  But the option itself gives a meaning to the existence of the Android version of UniNotifier;
+• Android: removed redundant button for requesting single news items;
+• Android: buttons for manual polling of notifications are now minimized when the screen
+  is displayed vertically;
+
+Version 3.9.1:
+• Tablepedia notifier: за ненадобностью удалена функциональность закрепления оповещения
+  в системной области;
+• Android: fixed bug with inability to call the main app from permanent notification
+  on Android 1O and newer
+• Android: adjusted first start tips and behavior
+
+Version 3.9:
+• Tablepedia notifier: сохранение файлов теперь доступно на Android 10 и новее;
+• Android: improved GMJ records processing;
+• Android: trying to fix inability to call UniNotifier from the permanent notification
+
+Version 3.8.6:
+• Android: updated app “about” interface
+
+Version 3.8.5:
+• Updated link and text presenter for ADP;
+• Updated known GMJ records;
+• Tablepedia: trying to solve trouble with saving files on Android 11 and higher
+
+Version 3.8.4:
+• Updated known GMJ records;
+• Windows: added tip for tray icon;
+• Windows: removed unused buttons from context menu of tray icon;
+• Windows: double-click event for tray icon replaced with single left click
+
+Version 3.8.3:
+• Windows: updated tray icon;
+• Windows: updated retranslation rate;
+• Android: fixed interface failure (bad Xamarin package has been rolled back)
+
+Version 3.8.2:
+• Updated known GMJ records;
+• Android: updated core Xamarin libraries;
+• Tablepedia: отключена функция сохранения файлов на Android 10 и новее из-за отсутствия документации
+  к новой функциональности при работе с файловой системой
+
+Version 3.8:
+• Updated known GMJ records;
+• Android: application settings and notifications management now have separate pages;
+• Tablepedia: добавлен автоматический запрос на разрешение записи (для сохранения страниц ссылок)
+
+Version 3.7:
+• Removed old processing algorithms; code structure has been simplified;
+• Tablepedia notifier: implemented multilevel links groups;
+• Tablepedia notifier: added ability to download links page as HTML
+
+Version 3.6g:
+• Updated known GMJ records;
+• Current minor fixes applied
+
+Version 3.6fwz:
+• Fixed HTML processing bug that allowed empty strings to pass through the “novelty” check
+  as a new notification text when requests don’t have enough time to be processed;
+• Android: added additional notifications for buttons “Apply” and “Add as new”
+
+Version 3.6v:
+• Android: adjusted some interface elements
+
+Version 3.6:
+• Android: settings window has been upgraded;
+• Android: vertical screen orientation is now available for UniNotifier;
+• Updated known GMJ records
+
+Version 3.5v:
+• Android: buttons placement has been adjusted;
+• Android: additional confirmation added for all news request;
+• Android: added ability to align buttons in the main log to the right side;
+• Android: main log may now contain up to 40 recent notifications;
+• Android: notification templates may now be updated manually
+
+Version 3.5:
+• Android: complete rewrite of the main log interface:
+  - notification texts are now clickable and shareable directly from the log;
+  - redundant buttons and code have been removed;
+• Android: tips are now work properly (don’t require double clicking on some buttons on first start);
+• Android: probably, fixed bug with date stamps in the main log;
+• Android: fixed some other interface inconveniences;
+• Android: probably, fixed bug with the bottom line of the settings interface;
+• UniNotifier: removed special notifications section;
+• Tablepedia notifier: removed log section;
+• Android: restored broken request for notification templates
+
+Version 3.0g:
+• Updated link to the user’s videomanual;
+• Android: added support for additional data files (t1, t2, t3) in Tablepedia notifier;
+• Android: fixed main log’s buttons alignment in Tablepedia notifier;
+• Android: fixed settings buttons alignment in Tablepedia notifier;
+• Android: allowed vertical screen orientation in Tablepedia notifier;
+• Android: fixed attachment for first-start-notifications;
+• Android: allowed immediate update of links field in Tablepedia notifier
+
+Version 3.0f:
+• Android: stabilized request for all news items;
+• Android: Tablepedia notifier updated to core version 3;
+• Android: removed some code artifacts
+
+Version 3.0e:
+• Android: added ability to sequently request all available news items
+• Android: added tips for news requesting buttons
+
+Version 3.0d:
+• Android: light fixup for the first set of requests
+
+Version 3.0c:
+• Android: updated known GMJ records;
+• Android: fixed bug in cycling algorithm for notifications order;
+• Android: some interface clarifications applied;
+• Android: some alert messages replaced with “toasts”
+
+Version 3.0b:
+• Android: updated some tips and names;
+• Android: log buttons will be locked to avoid of multiple requests;
+• Android: requests are now asynchronous (will not freeze the main app);
+• Android: some interface improvements applied;
+• Updated known GMJ records
+
+Version 3.0:
+• Android: app algorithm has been rebuilt:
+  - pinned notification now allows only calling of the main app when it’s closed;
+  - news requests are now fully manual (“Next” button on the log page);
+  - automated timer now only checks state of the background service;
+  - system notifications and corresponding settings replaced with main log;
+• Android: some corresponding code and interface improvements applied
+
+Version 2.5.1b:
+• Android: updated links and messages processing in Tapbepedia notifier;
+• Android: updated required permissions set;
+• Android: updated interface behavior in Tablepedia notifier
+
+Version 2.5.1:
+• Windows: implemented retranslation processor (for further aims);
+• Updated known GMJ records;
+• Android: updated some tips;
+• Android: updated Tablepedia notifications processor:
+  - external links are now available;
+  - links cloud got new behavior
+• Android: Tablepedia notifier got new order of pages and controls;
+• Android: Tablepedia notifier is now able to adjust font size for links cloud (requires restart)
+
+Version 2.5:
+• Windows: added ability to share/load notification settings through the clipboard;
+• Android: fixed inability to restart after reboot and refresh after wake up on Android 10;
+• Android: some other fixes applied in app code
+
+Version 2.4.4:
+• Windows: fixed some icons appearance;
+• Windows: added tips for first start into settings window;
+• Android: trying to fix battery check failure on Android 10;
+• Android: trying to fix sleep mode
+
+Version 2.4.3:
+• Windows: new identity applied;
+• New links to RD AAOW FDL added;
+• Added direct lab link to VK and Telegram;
+• Android: target API changed to 30 (Android R), according to Google’s attribution;
+• Android: removed support for x86 and x64
+
+Version 2.4.2:
+• Android: some tips have been updated;
+• Updated list of known GMJ records
+
+Version 2.4.1:
+• Android: due to inability to make the foreground service work properly we’ve added the option
+  that allows user to force notifications refresh on device unlock. It will take effect only when
+  device is on battery power and is sleeping. Otherwise, update rate parameter will have priority
+
+Version 2.4:
+• Android: changed some buttons placements and icons; settings interface has been reviewed;
+• Android: startup tips have been updated;
+• Android: some code improvements applied;
+• Android: added tips for all buttons in settings interface (except of GMJ and “about” controls);
+• Android: some interface bugs fixed
+
+Version 2.3:
+• Android: fixed master timer malfunction that changed default 5m interval to 6m15s;
+• Improved GMJ processing algorithm: now it will clear missing numbers in new records according to known records template;
+• Some code improvements applied;
+• Updated list of known GMJ records
+
+Version 2.2.3:
+• Notifications processing fixup (eliminates repeating messages with the same texts)
+
+Version 2.2.2:
+• Third try to fix app failure on long list of unchanged notifications:
+  - only 5 unchanged notifications will be processed in a row;
+  - single entrance protection moved to GetHTML method;
+  - GetHTML method now releases resources properly;
+• Android: background service will now be properly terminated on app resume (when it haven’t been closed);
+• Android: some interface fixes applied
+
+Version 2.2:
+• Added ability to share notification settings as parameters strings; this string may be received by user
+  (through any possible channel), copied to clipboard and loaded by UniNotifier;
+• Applying notifications templates and getting settings from the clipboard are now available under Get button
+
+Version 2.1.2r:
+• Added support for Android 5 (Lollipop);
+• Fixed some interface bugs
+
+Version 2.1.2:
+• Updated share offset controller;
+• Tablepedia: added links page that will collect URLs of biographies
+
+Version 2.1:
+• GMJ records update algorithm has been improved: now it will automatically check for new items every week and add them to the list
+  (instead of waiting for the end of list to rebuild with new elements). Check will only be performed when GMJ button is pressed;
+• New GMJ known records list applied;
+• Android: interface libraries have been updated
+
+Version 2.0b:
+• Android: “Tablepedia notifier” has been implemented;
+• Android: fixed potential fails on clicking links without browser that can process them;
+• Android: fixed share function for the first 5 notifications in the main log;
+• Other code improvements applied;
+• Windows: new icon added
+
+Version 2.0:
+• Android: notification service has been partially rebuilt:
+  - now it will finish itself asap on StopRequest event;
+  - settings interface will emit this event instead of trying to stop the service from the outside;
+  - app behavior on connection speeds lower than 500 kb/s is now more stable; it still can be slow in some cases,
+    but it must not fail the app (ANR error in previous version);
+• Android: new app icon applied;
+• Some variables have been removed from saved settings (they aren’t required there, and it can increase processing speed);
+• Android: some tips have been updated;
+• Some code improvements applied
+
+Version 1.21:
+• Created notifications will now be sorted in alphabet direction automatically (disabled ones will be moved to the end of list);
+• Update counter has been rebuilt: now new notifications will be shown without pauses for disabled and unchanged texts
+
+Version 1.20:
+• Added special notifications for tablepedia.com (and processing algorithm for special notifications as well);
+• Android: added ability to skip unchanged notifications on “Request all” option call;
+• Android: some interface improvements applied
+
+Version 1.19.3:
+• Fixed appearance of degree sign;
+• Template for YR weather replaced with Mail.ru weather;
+• Android: fixed some buttons sizes and appearance
+
+Version 1.19.2:
+• Android: interface code has been improved; settings interface has been reviewed
+
+Version 1.19.1:
+• Added ability to “ask developer” via E-mail for help, or send wish, advice or bug report;
+• Improved delimiters search and notifications processing algorithms;
+• Updated behavior of “about” interface;
+• Android: updated runtime libraries;
+• Updated list of known GMJ records
+
+Version 1.19:
+• Android: added refresh button that allows user to reset notifications state and make them
+  re-request their texts again (as so as at the start of the app);
+• Android: updated buttons names on the master notification;
+• Some code improvements applied;
+• Android: added message offset for sharing function; it allows sharing up to 5 first
+  notifications from the main log
+
+Version 1.18.1:
+• Updated list of known GMJ records;
+• Improved GMJ records processing algorithm
+
+Version 1.18:
+• Android: app will not start the background service on share button pressing (in previous
+  version this led to unpredictable result of calling of last notification’s text);
+• Android: app will stop the background service if it’s already started, but corresponding
+  switch is off;
+• Android: log length is now 20’000 symbols;
+• Android: log field is now customizable: read mode and font size now can be specified by user;
+• Updated list of known GMJ records;
+• Some code improvements applied
+
+Version 1.17:
+• Added free GMJ records counter;
+• Android: added sharing function for the last message in log (with link and name);
+• Added user agreement for GMJ
+
+Version 1.16.3:
+• Updated list of known GMJ records;
+• GMJ records reader will not lose them from the list in case of internet absence;
+• Updated (universalized) text processing algorithm;
+• Android: changed placement of buttons near from notifications log;
+• Some interface bugs fixed
+
+Version 1.16.2:
+• Replaced RG template due to clickbaits in previously mapped section;
+• Updated templates saving algorithm;
+• Updated some tips and names
+
+Version 1.16:
+• Added ability to request random record from Grammar must joy (for ru_ru UI language only);
+• Fixed “$” sign appearance;
+• Android: notification settings removed from version for Android 10 and higher (they doesn’t work);
+• Android: notifications log extended up to 15000 characters;
+• Fixed hidden bug in paths processing algorithm
+
+Version 1.15.2:
+• Android: trying to solve problem with notifications attributes (vibro, lights, sounds);
+• Android: added new startup tips;
+• Windows: fixed bug in Policy acceptation interface that disallowed to accept it in offline mode at first start
+
+Version 1.15:
+• Added templates loader. Now extended notification templates will be received
+  from the app hosting (GitHub) and stored on the device. They will be updated
+  automatically when new set of templates will be available;
+• Android: log screen is now more comfortable for use
+
+Version 1.14.2:
+• Windows: fixed incorrect behavior of context menu in some cases;
+• Added some keywords replacement for VK pages;
+• Added template for checking subscribers count on VK community
+
+Version 1.14.1.2 / Android:
+• Android: fixed some interface bugs;
+• Android: trying to reduce size of an app;
+• Android: updating app core assemblies;
+• Android: updating forms styling
+
+Version 1.14 / Android:
+• Android: fixed incorrect start screen display on Oreo and newer;
+• Android: fixed notifications absence on Oreo and newer;
+• Android: fixed some interface bugs;
+• Windows: ADP loader has been rebuilt; policy text now formatted properly;
+• Windows: App about and Policy windows are now fully expandaple
+
+Version 1.13.1.4 / Android:
+• Android: trying to fix incorrect start screen display;
+• Android: trying to fix notifications absense, step 3
+
+Version 1.13.2:
+• Added protection against multiple launch
+
+Version 1.13.1:
+• Windows: added additional new line before date line in notifications log;
+• Android: added and adjusted big notification icon for tabs;
+• Android: trying to fix notifications absence on Android Oreo and newer;
+• Android: application crashes caused by damaged OS; no critical bugs found in current version
+
+Version 1.13:
+• Improved beginning / ending search algorithm (results are now more accurate; search is not case-sensitive now);
+• The word “Occurrence” is now correct;
+• User manual has been recreated and now available through the corresponding button;
+• Application will now add current date to the notification log when starting or changing current date;
+• Method of retrieving of OS language at first start is more accurate now;
+• Android: fixed some interface bugs;
+• Android: applied attempt to fix fatal “RemoteServiceException” bug on Android 9
+
+Version 1.12:
+• Fixed main VK wall template;
+• Android: control buttons added to the first (start) notification;
+• Android: single control button has been splitted to “view all” and “customize” buttons;
+• Android: added ability to show/hide texts of notifications on locked screen;
+• Android: app will automatically restart at reboot and power on if “start service after exit” switch is on;
+• Android: failed to make app continue work in sleep mode
+
+Version 1.11.3 / Android:
+• Android: fixed previous notifications logging bug;
+• Android: fixed some interface bugs;
+• Android: settings interface has been completely rebuilt;
+• Android: added link to video user manual
+
+Version 1.11.2 / Android:
+• Android: fixed occurrence number display;
+• Android: fixed apply button display;
+• Android: fixed first start’s template parameters;
+• Android: added “view full text” button to all notifications;
+• Android: app will not show previously loaded news again after making settings;
+• Android: still failed to make app work without power connected and with screen turned off
+
+Version 1.11.1 / Android:
+• Android: fixed templates loading;
+• Android: fixed occurrence number’s processing bug
+
+Version 1.11:
+• Windows: fixed an interface bug that caused the app to show old settings after clicking “Update” button;
+• Fixed display of “&” sign;
+• Windows: app resets notification timer when settings are changed; this is convenient because it allows you to immediately check their correctness;
+• Added ability to set number of occurrence of needed text fragment on the webpage (from its beginning);
+• Updated all notification templates; improved templates for VK wall;
+• Android: fixed incorrect display of refresh frequency
+
+Version 1.10.2:
+• Implemented counter function that will allow you (in the next version) to specify what occurrence from the top of page will be shown;
+• Some processing improvements applied;
+• Symbols “lt” and “gt” will now be processed properly;
+• Added checking for matching names of notifications;
+• Android: all previously implemented functions for Windows have been included into new version
+
+Version 1.10 / Windows:
+• Added template for Yahoo finance;
+• Fixed too small sizes of beginning and ending fields;
+• Some processing code improvements applied;
+• Application now able to use internal tag fragments (without “<” and “>”) for beginning signs;
+• Maximum of allowed notifications increased up to 30
+
+Version 1.9.6 / Android:
+• Android: added (from Windows version) ability to view list of previously received notifications;
+• Android: fixed first start tips;
+• Android: fixed buttons placement bug;
+• Android: fixed first appearance of start buttons;
+• Android: fixed bug in new notifications check algorithm;
+• Android: added (from Windows version) ability to automatically find notifications delimiters
+
+Version 1.9.5 / Android:
+• Android: added notifications management interface (main functionality);
+• Android: settings app locked in landscape orientation;
+• Android: removed templates auto-add stub;
+• Windows: fixed buttons management in settings window
+
+Version 1.9.4 / Android:
+• Android: third method (JobScheduler) brings unacceptable long pauses between news and uncontrollable freezing. Looks like it failed too;
+• Android: applied simple notification cycle; it will only work when device is not sleep and / or is connected to power
+
+Version 1.9.3 / Android:
+• First and second sleep workarounds (variations of ForegroundService) don’t work. Trying third one
+
+Version 1.9.2 / Android:
+• Android: fixed fatal bug in memory management between start and first notification events;
+• Android: added LED and vibration notifications;
+• Android: found priority bug that disallowed app to show notifications in sleep mode (now is in test);
+• Android: notification’s appearance has been adjusted
+
+Version 1.9 / Android:
+• Beta release for Android (without settings interface)
+
+Version 1.9:
+• Fixed displaying of ['] sign;
+• Characters replacement algorithm has been improved;
+• Added ability to add application to startup menu;
+• Fixed threading algorithm: application will not freeze every 15 second anymore
+
+Version 1.8.1:
+• Fixed bug with full-text notifications;
+• Second step of core refactoring applied
+
+Version 1.8:
+• Windows: application info interface now able to get last release’s changes log;
+• Application core has been refactored and prepared for Android implementation
+
+Version 1.7i:
+• Windows: found and fixed hidden bug that caused an error when starting the application from local network;
+• Windows: fixed bug that caused the web page request method to fail if server disconnected;
+• Windows: updated application identity
+
+Version 1.6.2p:
+• Info interface call method has been rebuilt;
+• Some notifications templates has been updated
+
+Version 1.6p:
+• Notifications templates storage has been rebuilt;
+• Some settings interface improvements applied;
+• Added ability to accept/decline ADP at first start to the application info interface
+
+Version 1.5.2:
+• Main interface improvements applied;
+• Added template for YR (Norway weather website)
+
+Version 1.5:
+• Added the ability to choose which link will be followed;
+• Main interface and context tray menu have been reviewed and simplified;
+• Added template for «Весьма»;
+• Fixed settings interface’s minor bugs;
+• Added English interface localization;
+• Fixed quotation mark appearance
+
+Version 1.4:
+• Application may freeze a bit every 15 seconds due to temporarily incorrect threading algorithm; we work on it;
+• Added link to user manual;
+• Fixed incorrect appearance of exclamation signs;
+• Fixed settings loss at system restart or shutdown;
+• Added warnings on notification updating and deleting in settings window;
+• Implemented beginning and ending HTML-fragments auto-detector; may be unstable, but alpha-test passed;
+• Fixed settings interface’s minor bugs;
+• Notifications update will stop when settings window is active;
+• Added templates for «КоммерсантЪ» и «Российская газета»
+
+Version 1.3:
+• Notifier has been unified and now can check changes at almost any webpages;
+• Notifications can be set by user with settings interface;
+• Authentication function removed
+
+Version 1.2:
+• Some improvements applied to the main posts receiver
+
+Version 1.1:
+• Implemented automatic posts loader with OAuth function;
+• Implemented balloons notifying function;
+• Implemented window view function with saving window parameters;
+• Publication on GitHub

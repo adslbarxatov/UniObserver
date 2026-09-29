@@ -1,2 +1,27 @@
 # UniObserver
-The website observation service / Служба наблюдения за веб-сайтами
+
+## Description
+
+The website observation service.
+
+A detailed description of the app is available on [its own page](https://adslbarxatov.github.io/UniObserver).
+
+---
+
+*The product is distributed according to the [Integrated operational policy](https://adslbarxatov.github.io/IOP).
+By starting to work with this product, you fully agree with this Policy and accept it!*
+
+&nbsp;
+
+
+
+## Описание
+
+Служба наблюдения за веб-сайтами.
+
+Подробное описание приложения доступно на [отдельной странице](https://adslbarxatov.github.io/UniObserver/ru).
+
+---
+
+*Продукт распространяется согласно [Интегрированной операционной политике](https://adslbarxatov.github.io/IOP/ru).
+Начиная работу с этим продуктом, Вы полностью соглашаетесь с данной Политикой и принимаете её!*
