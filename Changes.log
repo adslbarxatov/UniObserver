@@ -1,7 +1,9 @@
 UniObserver: changes log
 
 Version 1.0:
-• Project name changed to UniObserver;
+• The project name changed to `UniObserver`;
+• Fixed some text tips in the app interface;
+• Version `1` (UTF16) of `.und` files is now out of support;
 
 
 
