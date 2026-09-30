@@ -1,5 +1,8 @@
 UniObserver: changes log
 
+Version 1.0.1:
+• Added the settings migration for Microsoft Store
+
 Version 1.0:
 • The project name changed to `UniObserver`;
 • Fixed some text tips in the app interface;
