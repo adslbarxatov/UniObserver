@@ -1,5 +1,10 @@
 UniObserver: changes log
 
+Version 1.0.3:
+• Added new videoguides;
+• Fixed an incorrect saving of new observation points;
+• Fixed some minor interface bugs
+
 Version 1.0.1:
 • Added the settings migration for Microsoft Store
 
