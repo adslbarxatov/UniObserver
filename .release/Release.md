@@ -1,6 +1,6 @@
 _en_us_
 
-- Internal assemblies have been updated;
+- Internal assemblies have been updated; 
 - Added new videoguides;
 - Fixed an incorrect saving of new observation points;
 - Fixed some minor interface bugs;

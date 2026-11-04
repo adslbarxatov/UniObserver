@@ -48,7 +48,7 @@ jobs:
 
             await fs.unlink (`./.release/Release.md`);
             for (let file of await fs.readdir('./.release')){
-              await github.repos.uploadReleaseAsset({
+              await github.rest.repos.uploadReleaseAsset({
                 owner, repo,
                 release_id: ${{ steps.create_release.outputs.id }},
                 name: file,
